@@ -1,0 +1,46 @@
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── HuggingFace model cache ───────────────────────────────────────────────────
+# Models are downloaded automatically on first run — no need to commit them.
+.cache/
+~/.cache/huggingface/
+
+# ── CLI output ────────────────────────────────────────────────────────────────
+# JSON files saved via --save flag
+results/
+
+# ── Data files ────────────────────────────────────────────────────────────────
+# Keep the data/ folder structure but ignore actual files inside it.
+# Add specific sample files back with: git add -f data/sample.txt
+data/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs and editors ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+*.egg-info/
+dist/
+build/
